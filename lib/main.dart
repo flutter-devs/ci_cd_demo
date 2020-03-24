@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
+
+
     );
   }
 }
@@ -34,6 +36,8 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {
       _counter++;
     });
+    //first commit to check the code
+
   }
 
   @override
